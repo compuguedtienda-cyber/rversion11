@@ -260,6 +260,18 @@ header .navbar {
     margin-right: 30px;
 }
 
+
+.claseposter{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.claseposter img{
+    background-image: url(images/banner/02.jpg);
+}
+
+
 /* About section styling */
 .about-section {
     padding: 120px 0;
@@ -469,10 +481,7 @@ header .navbar {
     color: black;
 }
 
-/*FIN   PRODUCTOS*/
-
-
-
+/*FIN PRODUCTOS*/
 
 
 
