@@ -420,8 +420,7 @@ header .navbar {
 
 
 
-
-
+/*PRODUCTOS*/
 .testimonials-section .slider-wrapper {
     overflow: hidden;
     /* margin: 0 60px 50px; */
@@ -461,7 +460,8 @@ header .navbar {
 }
 
 .testimonials-section .swiper-slide-button {
-    margin-top:98px;
+    /* margin-top:98px; */
+    
     color: blue;
     transition: 0.3s ease;
 }
@@ -470,7 +470,7 @@ header .navbar {
     color: black;
 }
 
-
+/*FIN   PRODUCTOS*/
 
 
 
@@ -893,9 +893,9 @@ max-width: 1600PX;
     }
 
     /* Desaparece los botones slider en modo celular */
-    .testimonials-section .swiper-slide-button {
+    /* .testimonials-section .swiper-slide-button {
     display: none;
-}
+} */
     /* FIN Desaparece los botones slider en modo celular */
 
 .menu-section .menu-list .menu-item .menu-image { /*tamaño imagen contacto*/
