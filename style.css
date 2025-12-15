@@ -460,8 +460,7 @@ header .navbar {
 }
 
 .testimonials-section .swiper-slide-button {
-    /* margin-top:98px; */
-    
+    margin-top:98px;
     color: blue;
     transition: 0.3s ease;
 }
