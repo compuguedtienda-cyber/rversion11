@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
     
+<div id="snow-container"></div>
+
 <head>
 
     <meta charset="UTF-8">
@@ -105,12 +107,12 @@
 
 
 <!-- SERVICIOS-->
-<section class="claseposter" id="poster">
+<!-- <section class="claseposter" id="poster">
     
     <div class="gallery__container">
         <img src="images/banner/03.jpg" alt="">
     </div>
- </section>
+ </section> -->
 <!-- FIN SERVICIOS-->
 
 
@@ -263,7 +265,7 @@
 
 <!-- CONTACTO-->
 <section class="menu-section testimonials-section" id="contacto">
-    <h2 class="section-title">CONTACTO</h2>
+    <h2 class="section-title2">CONTACTO</h2>
     <div class="section-content">
         <ul class="menu-list">
 
@@ -313,6 +315,21 @@
 
 <!-- Linking Custom Script -->
 <script src="script.js"></script>
+
+<script>
+  const snowContainer = document.getElementById("snow-container");
+
+  for (let i = 0; i < 50; i++) {
+    const snowflake = document.createElement("div");
+    snowflake.className = "snowflake";
+    snowflake.innerHTML = "❄";
+    snowflake.style.left = Math.random() * 100 + "vw";
+    snowflake.style.animationDuration = 3 + Math.random() * 5 + "s";
+    snowflake.style.fontSize = Math.random() * 10 + 10 + "px";
+    snowContainer.appendChild(snowflake);
+  }
+</script>
+
 
 </body>
 
